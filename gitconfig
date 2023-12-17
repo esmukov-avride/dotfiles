@@ -56,11 +56,3 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 
-[user]
-	name = Kostya Esmukov
-	email = kostya@esmukov.net
-	signingkey = A18FE9F6F570D5B4E1E1853FAA7B5406547AF062
-
-[commit]
-	gpgsign = true
-

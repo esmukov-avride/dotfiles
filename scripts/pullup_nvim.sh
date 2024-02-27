@@ -25,8 +25,12 @@ if which brew; then
     brew install $packages || brew upgrade $packages
 
 else
-    echo "Unsupported OS"
-    exit 1
+    sudo -E apt install \
+        neovim \
+        shellcheck \
+        silversearcher-ag \
+        wget \
+    ;
 fi
 
 # zsh correctly initializes pyenv

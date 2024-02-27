@@ -27,6 +27,8 @@ if which brew; then
 else
     sudo -E apt install \
         neovim \
+        python3 \
+        python3-pip \
         shellcheck \
         silversearcher-ag \
         wget \
